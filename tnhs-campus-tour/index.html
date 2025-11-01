@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <title>Campus Virtual Tour</title>
+  <link rel="stylesheet" href="/assets/css/index.css" />
+</head>
+
+<body>
+  <section id="navbar"></section>
+
+  <header class="header">
+    <video autoplay muted loop playsinline>
+      <source src="/assets/videos/lv_0_20250923105945.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="header-overlay"></div>
+    <div class="header-content header-content-animation">
+      <h1>Talipan National High School</h1>
+      <h5>Virtual Campus Tour</h5>
+    </div>
+  </header>
+
+  <section class="welcome-section">
+    <div class="section">
+      <div class="container">
+        <div class="card">
+          <h1 class="about-title">Welcome to Our Virtual Campus Tour</h1>
+          <p>
+            We are pleased to present our Virtual Campus Tour, a comprehensive
+            online experience that offers an in-depth view of our academic
+            environment, facilities, and community. This platform is designed
+            to provide prospective students, parents, and visitors with an
+            opportunity to explore our campus remotely, highlighting the
+            spaces where learning, innovation, and growth take place. We
+            invite you to navigate through the tour at your own pace and gain
+            a deeper understanding of the values, culture, and opportunities
+            that define our institution.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="get-started">
+    <div class="cards-hover">
+      <div class="card-hover">
+        <div class="card-hover-image">
+          <img src="/assets/images/icon1_lightbulb.png" alt="World-Class Education Icon" loading="lazy" />
+        </div>
+        <div class="card-hover-content">
+          <h3>World-Class Education</h3>
+          <p>
+            Our school provides a strong academic foundation with expert
+            teachers, innovative programs, and a curriculum designed to
+            prepare students for future success.
+          </p>
+        </div>
+      </div>
+
+      <div class="card-hover">
+        <div class="card-hover-image">
+          <img src="/assets/images/icon2_tree.png" alt="Beyond the Classroom Icon" loading="lazy" />
+        </div>
+        <div class="card-hover-content">
+          <h3>Beyond the Classroom</h3>
+          <p>
+            We nurture not only academic growth but also creativity,
+            leadership, and character through sports, arts, and
+            extracurricular activities.
+          </p>
+        </div>
+      </div>
+
+      <div class="card-hover">
+        <div class="card-hover-image">
+          <img src="/assets/images/icon3_heart.png" alt="A Place to Belong Icon" loading="lazy" />
+        </div>
+        <div class="card-hover-content">
+          <h3>A Place to Belong</h3>
+          <p>
+            Our inclusive and welcoming environment ensures every student
+            feels supported, valued, and empowered to reach their full
+            potential.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="wrap">
+      <div class="testimonials-header">
+        <div>
+          <h2>What our students say</h2>
+          <p>Real feedback from students studying here in our school.</p>
+        </div>
+      </div>
+
+      <section class="carousel" aria-roledescription="carousel" aria-label="Customer testimonials" tabindex="0">
+        <div class="slides" id="slides">
+          <!-- Slides will be rendered by JS -->
+        </div>
+
+        <div class="controls" id="controls">
+          <div class="dots" id="dots" role="tablist" aria-label="Testimonial navigation"></div>
+          <button class="btn" id="prevBtn" aria-label="Previous testimonial">
+            Prev
+          </button>
+          <button class="btn" id="nextBtn" aria-label="Next testimonial">
+            Next
+          </button>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="building-tree">
+    <iframe src="/infinite-layers" frameborder="0" style="width: 100%; height: 400px; min-height: 300px;"
+      title="Campus Building Tree"></iframe>
+  </section>
+  <button id="backToTop" aria-label="Back to top">&#8679;</button>
+  <div id="footer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script type="module" src="assets/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header Styles */
+.header {
+  position: relative;
+  overflow: hidden;
+}
+
+.header video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-content h5 {
+  font-size: 1.5rem;
+}
+
+/* Welcome Section */
+.welcome-section {
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Get Started Section */
+.get-started {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #fff;
+}
+
+.card-hover {
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+}
+
+.card-hover-image img {
+  width: 100px;
+  height: auto;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 2rem;
+  background: #e9ecef;
+}
+
+.testimonials-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.carousel {
+  position: relative;
+}
+
+/* Building Tree Section */
+.building-tree {
+  padding: 2rem;
+}
+
+/* Back to Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+}
+
+/* Footer */
+#footer {
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}

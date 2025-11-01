@@ -1,0 +1,31 @@
+{
+  "name": "tnhs-campus-tour",
+  "version": "1.0.0",
+  "description": "A virtual campus tour website for Talipan National High School.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server .",
+    "build": "echo 'Build process not defined'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "campus",
+    "tour",
+    "education",
+    "virtual"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.13.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://yourwebsite.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tnhs-campus-tour.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/tnhs-campus-tour/issues"
+  }
+}

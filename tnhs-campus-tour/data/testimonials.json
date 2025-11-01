@@ -1,0 +1,22 @@
+[
+  {
+    "name": "John Doe",
+    "testimonial": "The campus tour was an eye-opening experience! The facilities are top-notch, and the community is incredibly welcoming.",
+    "date": "2023-09-15"
+  },
+  {
+    "name": "Jane Smith",
+    "testimonial": "I loved exploring the campus virtually. It gave me a great sense of what to expect when I visit in person.",
+    "date": "2023-09-20"
+  },
+  {
+    "name": "Emily Johnson",
+    "testimonial": "The virtual tour highlighted all the best aspects of the school. I can't wait to be a part of this amazing community!",
+    "date": "2023-09-25"
+  },
+  {
+    "name": "Michael Brown",
+    "testimonial": "As a prospective student, the virtual tour helped me understand the school's values and culture. Highly recommend!",
+    "date": "2023-09-30"
+  }
+]
